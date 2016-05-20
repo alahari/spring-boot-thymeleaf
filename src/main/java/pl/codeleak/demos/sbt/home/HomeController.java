@@ -13,7 +13,7 @@ class HomeController {
     @RequestMapping("/")
     String index(Model model) {
         model.addAttribute("now", LocalDateTime.now());
-        return "index";
+        return "login";
     }
 
     @RequestMapping("properties")
