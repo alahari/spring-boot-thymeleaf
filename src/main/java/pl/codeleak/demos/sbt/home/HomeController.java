@@ -15,6 +15,12 @@ class HomeController {
         model.addAttribute("now", LocalDateTime.now());
         return "login";
     }
+    
+    @RequestMapping("/hello")
+    String hello(Model model) {
+        model.addAttribute("now", LocalDateTime.now());
+        return "index";
+    }
 
     @RequestMapping("properties")
     @ResponseBody
