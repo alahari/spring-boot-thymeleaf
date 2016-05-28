@@ -16,3 +16,6 @@ body {
     display: inline-block;
     margin: auto;
 }
+
+.form-group{width:50% !important;
+background-color:red !important;}
